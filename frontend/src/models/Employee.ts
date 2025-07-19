@@ -1,10 +1,10 @@
-import type { Role } from "./Role";
+import { Role } from "./enum/Role";
 
 export interface Employee {
   employeeId: number;
   name: string;
   dateOfBirth: string;
-  cccd: string;
+  idNumber: string;
   phone: string;
   email: string;
   role: Role;
